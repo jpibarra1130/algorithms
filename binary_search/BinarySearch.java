@@ -1,10 +1,5 @@
-package com.ibarra.search;
-
 import java.util.Scanner;
 
-/**
- * Created by paoloibarra on 2/9/15.
- */
 public class BinarySearch {
 
     public int findIndex(int v, int[] array) {
@@ -41,7 +36,7 @@ public class BinarySearch {
         }
 
         BinarySearch binarySearch = new BinarySearch();
-        binarySearch.findIndex(v, array);
+        System.out.println(binarySearch.findIndex(v, array));
     }
 
 }
